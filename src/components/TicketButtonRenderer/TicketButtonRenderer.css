@@ -1,0 +1,13 @@
+.create-ticket-button {
+    all: unset;
+    cursor: pointer;
+    color: blue;
+}
+
+.ticket-logo-text {
+    display: flex;
+}
+
+.text {
+    margin-left: 10px;
+}

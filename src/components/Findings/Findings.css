@@ -1,0 +1,19 @@
+.findings-container {
+    background-color: #ebebeb;
+    height: 850px;
+}
+
+.findings-title {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.findings-table {
+    margin: 0 40px;
+}
+
+.ag-cell-focus, .ag-cell {
+    border: none !important;
+}

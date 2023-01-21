@@ -1,0 +1,52 @@
+.nav-header {
+  display: flex;
+  height: 50px;
+  background-color: #001133;
+  color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nh-link-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nh-link {
+  position: relative;
+  display: inline-block;
+  color: #c0c0c0;
+  background-color: #001133;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 12px;
+  margin: 10px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-group {
+  align-items: center;
+  display: flex;
+  height: 50px;
+}
+
+.active {
+  border-bottom: 3px solid #1a75ff;
+}
+
+.active > button {
+  color: #1a75ff;
+}
+
+.icon {
+  margin: 0  2px;
+  background: transparent;
+  border: none;
+}
+
+.right-side {
+  margin-right: 30px;
+}

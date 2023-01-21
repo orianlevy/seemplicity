@@ -1,0 +1,22 @@
+.main-form-section {
+    margin: 20px;
+}
+
+.dropdown-toggle, .dropdown-menu {
+    width: 350px !important;
+    text-align: left;
+    background-color: white !important;
+    color: grey !important;
+    border: 1px solid #ebebeb;
+}
+
+.dropdown-item, .dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus{
+    background-color: white !important;
+    color: grey !important;
+    outline: none;
+    text-decoration: none;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
