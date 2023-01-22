@@ -37,21 +37,6 @@ const TicketForm = (props: TicketFormProps) => {
     const [title, setTitle] = useState(props.finding.title);
     const [description, setDescription] = useState(props.finding.description);
 
-    useEffect(() => {
-        //Make sure selected items are synced with store
-        if (selectedProvider) {
-            const updatedProvider = providers.find((item: IProvider) => item.id === selectedProvider.id)
-            if (updatedProvider) {
-                setSelectedProvider(updatedProvider)
-            }
-            if (selectedProject) {
-                const updatedProject = updatedProvider?.projects?.find((item: IProject) => item.id === selectedProject.id)
-                if (updatedProject) {
-                    setSelectedProject(updatedProject)
-                }
-            }
-        }
-    }, [providers])
 
     useEffect(() => {
         const valid =

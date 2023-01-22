@@ -24,15 +24,11 @@ const TicketButtonRenderer = (props: TicketButtonRendererProps) => {
         }
     }, [props])
 
-    const createTicket = () => {
-        props.createTicket(props.data)
-    }
-
     return (
         <div>
             {props.data.ticket ?
                 <div className="ticket-logo-text">{logo}<span className="text">{props.data.ticket}</span></div> :
-                <button className="create-ticket-button" onClick={() => createTicket()}>Create Ticket</button>
+                <button className="create-ticket-button" onClick={() => props.createTicket(props.data)}>Create Ticket</button>
             }
         </div>
     );
